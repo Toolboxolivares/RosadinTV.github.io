@@ -36,16 +36,27 @@
   </head>
   <body style="background-color: #6E0A3C !important;">
     <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
-      <header class="demo-header mdl-layout__header mdl-color--pink-800 mdl-color-text--white" style="margin-left: 0px; width: 100%">
+      <header class="demo-header mdl-layout__header mdl-color--pink-800 mdl-color-text--white">
         <div class="mdl-layout__header-row" style="background-color: #640032">
           <span id="titulo_actual" class="mdl-layout-title">Inicio</span>
       </header>
-
+      <div class="demo-drawer mdl-layout__drawer mdl-color--pink-900 mdl-color-text--white">
+       <!-- ACA SE PUEDEN INCLUIR BOTONES EN LA BARRA DE NAVEGACION -->  
+        <nav class="demo-navigation mdl-navigation">     
+          <a class="mdl-navigation__link" id="inicio-link" href="#inicio"><i class="material-icons" role="presentation">home</i>Inicio</a>
+          <a class="mdl-navigation__link" id="descarga-link" href="#descarga"><i class="material-icons" role="presentation">get_app</i>Descarga</a>
+          <a class="mdl-navigation__link" id="plugins-link" href="#plugins"><i class="material-icons" role="presentation">extension</i>Plugins</a>
+          <div class="mdl-layout-spacer"></div>
+         <a class="mdl-navigation__link" id="ayuda-link" href="#ayuda"><i class="material-icons" role="presentation">help</i>Ayuda</a>
+         <a class="mdl-navigation__link" id="acerca-link" href="#acerca"><i class="material-icons" role="presentation">forum</i>Acerca</a>
+         <a class="mdl-navigation__link" id="fb-link" href="https://Facebook.com/RosadinTV" target="_blank"><i class="material-icons" role="presentation">thumb_up</i>Facebook</a>
+        </nav>
+      </div>
        
       
       
       
-      <main class="mdl-layout__content mdl-color--pink-800 mdl-color-text--white" style="margin-left: 0px">
+      <main class="mdl-layout__content mdl-color--pink-800 mdl-color-text--white">
         <div class="mdl-grid demo-content" id="ajax-main-content">
  <!-- INICIO CONTENIDO -->
 
@@ -104,16 +115,16 @@
               <center><img src="images/RosadinTV3_Logo.png" width="20%" height="20%" style="min-width: 100px; min-height: 100px;"></center>
             </div>
   <div class="mdl-card__supporting-text mdl-color-text--white">
-    RosadinTV se mantendra temporalmente inactivo.<br>Esto sera hasta resolver algunos problemas en la forma de distribucion y asi cumplir con los limites de ancho de banda permitidos por Github Pages
+    RosadinTV es una aplicacion que permite abrir contenido multimedia usando distintas herramientas de codigo abierto.<br>No requiere instalacion, es gratuita y libre de anuncios.
   </div>
-    <div class="mdl-card__actions mdl-card--border">
-    <a href="https://facebook.com/RosadinTV" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-      Ver Facebook
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="#descarga" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Ir a descarga
     </a>
   </div>
-      <div class="mdl-card__actions mdl-card--border">
-    <a href="https://github.com/RosadinTV" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-      Ver Github
+    <div class="mdl-card__actions mdl-card--border">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Ver licencia de uso
     </a>
   </div>
 </div>
@@ -124,6 +135,259 @@
 
 </section>
 		
+		<section id="descarga">
+      
+ <div class="demo-graphs">             
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-color--deep-orange-900">
+
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    Requerimientos minimos: Windows Vista SP2 con .NET Framework 4.5
+  </div>
+
+</div>
+          </div>
+          
+                              <div class="demo-graphs">         
+<div class="demo-card-square mdl-card mdl-shadow--2dp" style="background-color: #500000;">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">RosadinTV (Release)</h2>
+  </div>
+        <center><i class="material-icons" style="font-size: 50px" role="presentation">whatshot</i></center>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    El programa compilado, los componentes externos se descargaran al inicio
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="https://github.com/RosadinTV/RosadinTV_Release/releases/download/Principal/RosadinTV.zip" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Descargar
+    </a>
+  </div>
+</div>
+          </div>
+          
+                                        <div class="demo-graphs">         
+<div class="demo-card-square mdl-card mdl-shadow--2dp" style="background-color: #500000;">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">RosadinTV (Source)</h2>
+  </div>
+   <center><i class="material-icons" style="font-size: 50px" role="presentation">ac_unit</i></center>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    El codigo fuente del programa en VB.NET
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="https://github.com/RosadinTV/RosadinTV_Release/releases/download/Principal/RosadinTV_Source.zip" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Descargar
+    </a>
+  </div>
+</div>
+          </div>
+
+                                                  <div class="demo-graphs">         
+<div class="demo-card-square mdl-card mdl-shadow--2dp" style="background-color: #500000;">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">Pack de imagenes</h2>
+  </div>
+   <center><i class="material-icons" style="font-size: 50px" role="presentation">collections</i></center>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    Contiene logos de las distintas versiones del programa
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="https://github.com/RosadinTV/RosadinTV_Release/releases/download/Principal/RosadinTV_ImagePack.zip" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Descargar
+    </a>
+  </div>
+</div>
+          </div>
+          
+          <div class="demo-graphs"> 
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-color--green-900">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">.NET Framework 4.5</h2>
+  </div>
+     <center><i class="material-icons" style="font-size: 50px" role="presentation">settings</i></center>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    Necesario para la ejecucion del programa
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="https://www.microsoft.com/es-ar/download/details.aspx?id=30653" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Descargar
+    </a>
+  </div>
+</div>
+          </div>         
+
+                    <div class="demo-graphs">
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-color--green-900">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">Visual Studio Community</h2>
+  </div>
+       <center><i class="material-icons" style="font-size: 50px" role="presentation">all_inclusive</i></center>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    Necesario para editar el codigo fuente
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="https://www.visualstudio.com/es-es/products/visual-studio-community-vs.aspx" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Descargar
+    </a>
+  </div>
+</div>
+          </div>
+          
+		</section>
+
+		<section id="plugins">
+      
+                              <div class="demo-graphs">   
+<div class="demo-card-square mdl-card mdl-shadow--2dp" style="background-color: #500000;">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">RTV SDK</h2>
+  </div>
+           <center><i class="material-icons" style="font-size: 50px" role="presentation">developer_board</i></center>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    Contiene el codigo necesario para fabricar tu propio Plugin
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="https://github.com/RosadinTV/RosadinTV_Release/releases/download/Principal/RTV_SDK.zip" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Descargar
+    </a>
+  </div>
+</div>
+          </div>
+          
+          <!-- OCULTO (CODIGO FUENTE AUN NO DISPONIBLE)
+                                        <div class="demo-graphs">     
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-color--red-800">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">RTV Public Plugins Source</h2>
+  </div>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    El codigo fuente de los Plugins incluidos en el programa
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Descargar
+    </a>
+  </div>
+</div>
+          </div>
+          -->
+          
+          
+          <div class="demo-graphs">
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-color--green-900">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">Visual Studio Community</h2>
+  </div>
+         <center><i class="material-icons" style="font-size: 50px" role="presentation">all_inclusive</i></center>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    Necesario para editar el codigo fuente
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="https://www.visualstudio.com/es-es/products/visual-studio-community-vs.aspx" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Descargar
+    </a>
+  </div>
+</div>
+          </div>
+         
+		</section>
+    
+		<section id="ayuda">
+
+		 <div class="demo-graphs">       
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-color--deep-orange-900">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">FAQ</h2>
+  </div>
+      <div class="mdl-card__media mdl-color--deep-orange-900">
+              <center><i class="material-icons" style="font-size: 50px" role="presentation">remove_red_eye</i></center>
+            </div>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    Una vez descargado el programa revisa la categoria 'Ayuda' para obtener respuesta a las dudas mas frecuentes
+  </div>
+</div>
+          </div>
+          		 <div class="demo-graphs">       
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-color--deep-orange-900">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">Documentos</h2>
+  </div>
+      <div class="mdl-card__media mdl-color--deep-orange-900">
+              <center><i class="material-icons" style="font-size: 50px" role="presentation">book</i></center>
+            </div>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    Datos utiles sobre los principales componentes externos
+  </div>
+    <div class="mdl-card__actions mdl-card--border">
+    <a href="https://mpv.io/manual/stable/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      MPV
+    </a>
+  </div>
+      <div class="mdl-card__actions mdl-card--border">
+    <a href="https://github.com/rg3/youtube-dl/blob/master/README.md#readme" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      YouTube-DL
+    </a>
+  </div>
+        <div class="mdl-card__actions mdl-card--border">
+    <a href="https://streamlink.github.io/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Streamlink
+    </a>
+  </div>
+</div>
+          </div>
+
+		</section>
+
+    		<section id="acerca">
+
+ <div class="demo-graphs">       
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-color--green-900">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">Creditos</h2>
+  </div>
+      <div class="mdl-card__media mdl-color--green-900">
+              <center><i class="material-icons" style="font-size: 50px" role="presentation">cake</i></center>
+            </div>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    Creado por Vladimir Damian Ianuzo
+  </div>
+</div>
+          </div>
+          
+ <div class="demo-graphs">       
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-color--green-900">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">Componentes externos</h2>
+  </div>
+      <div class="mdl-card__media mdl-color--green-900">
+              <center><i class="material-icons" style="font-size: 50px" role="presentation">info_outline</i></center>
+            </div>
+  <div class="mdl-card__supporting-text mdl-color-text--white">
+    Usa software de codigo abierto
+  </div>
+</div>
+          </div>
+          
+          <div class="demo-graphs">
+<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-color--green-900">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text mdl-color-text--white">Enlaces</h2>
+  </div>
+  <center><i class="material-icons" style="font-size: 50px" role="presentation">&#xE89D;</i></center><br>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="https://github.com/RosadinTV/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Ver en Github
+    </a>
+  </div>
+    <div class="mdl-card__actions mdl-card--border">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//rosadintv.github.io" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+      Compartir en Facebook
+    </a>
+  </div>
+</div>
+          </div>
+
+    </section>
+    
     
 		
 	</div>         
