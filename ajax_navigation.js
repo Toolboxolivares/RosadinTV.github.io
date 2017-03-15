@@ -116,3 +116,60 @@ function startsWith(str, word) {
 
 
 });
+
+
+//Codigo a ejecutar al inicio
+
+var ALEATORIO = ObtenerNumeroAleatorio(1,1); //1=SOLO TEMA ORIGINAL / 5=TEMA ALEATORIO
+
+if (ALEATORIO ==1){ //Original
+CambiarBackColor_ByClassName("mdl-layout__header-row","#640032"); //Barra de titulo
+CambiarBackColor_ByClassName("demo-navigation mdl-navigation","#640032"); //Barra de navegacion
+CambiarBackColor_ByClassName("mdl-layout__content","#6E0A3C"); //Contenido
+}
+if (ALEATORIO ==2){ //Rojo
+CambiarBackColor_ByClassName("mdl-layout__header-row","#410000"); //Barra de titulo
+CambiarBackColor_ByClassName("demo-navigation mdl-navigation","#410000"); //Barra de navegacion
+CambiarBackColor_ByClassName("mdl-layout__content","#4B0A0A"); //Contenido
+}
+if (ALEATORIO ==3){ //Violeta
+CambiarBackColor_ByClassName("mdl-layout__header-row","#410041"); //Barra de titulo
+CambiarBackColor_ByClassName("demo-navigation mdl-navigation","#410041"); //Barra de navegacion
+CambiarBackColor_ByClassName("mdl-layout__content","#4B0A4B"); //Contenido
+}
+if (ALEATORIO ==4){ //Azul
+CambiarBackColor_ByClassName("mdl-layout__header-row","#000023"); //Barra de titulo
+CambiarBackColor_ByClassName("demo-navigation mdl-navigation","#000023"); //Barra de navegacion
+CambiarBackColor_ByClassName("mdl-layout__content","#0A0A2D"); //Contenido
+}
+if (ALEATORIO ==5){ //Verde
+CambiarBackColor_ByClassName("mdl-layout__header-row","#0A3C0A"); //Barra de titulo
+CambiarBackColor_ByClassName("demo-navigation mdl-navigation","#0A3C0A"); //Barra de navegacion
+CambiarBackColor_ByClassName("mdl-layout__content","#003200"); //Contenido
+}
+if (ALEATORIO ==6){ //Negro (Deshabilitado)
+CambiarBackColor_ByClassName("mdl-layout__header-row","#050505"); //Barra de titulo
+CambiarBackColor_ByClassName("demo-navigation mdl-navigation","#050505"); //Barra de navegacion
+CambiarBackColor_ByClassName("mdl-layout__content","#0F0F0F"); //Contenido
+}
+
+
+//Fin
+
+//Funciones
+
+function ObtenerNumeroAleatorio(min,max)
+{
+    return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+function CambiarBackColor_ByClassName(ClassString, Color) {
+    var boxes = document.getElementsByClassName(ClassString),
+        i = boxes.length;
+
+    while(i--) {
+        boxes[i].style.backgroundColor = Color;
+    }
+}
+
+//Fin

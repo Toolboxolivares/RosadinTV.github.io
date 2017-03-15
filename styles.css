@@ -30,7 +30,7 @@ html, body {
   bottom: 19px;
 }
 .demo-layout .mdl-layout__header .mdl-layout__drawer-button {
-  background-color: #640032;
+  background-color: transparent;
   color: white;
 }
 .mdl-layout__drawer .avatar {
