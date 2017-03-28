@@ -1,5 +1,5 @@
 [RosadinTV]
-version=15/3/2017
+version=28/3/2017
 link=https://github.com/RosadinTV/RosadinTV_Release/releases/download/Principal/RosadinTV.zip
 destino=
 
@@ -29,7 +29,7 @@ link=https://github.com/RosadinTV/RosadinTV_Release/releases/download/Dependenci
 destino=Archivos\RTMPDump
 
 [Plugins]
-version=4
+version=5
 link=https://github.com/RosadinTV/RosadinTV_Release/releases/download/Dependencias/Plugins.zip
 destino=Plugins
 
