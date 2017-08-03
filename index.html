@@ -138,8 +138,18 @@
   </div>
             
   <div class="mdl-card__supporting-text mdl-color-text--white" style="background-color: rgba(0, 0, 0, .2); text-align: left; margin: 5px;">
-    Proximamente se renovara la aplicacion por completo, reprogramandola en WPF, lo cual brindara grandes mejoras en terminos de rendimiento y aspecto grafico.<br><br>Publicado el 27/7/2017
+    Proximamente se renovara la aplicacion por completo, reprogramandola en WPF, lo cual brindara grandes mejoras en terminos de rendimiento y aspecto grafico.
+  <br><br>
+  <div id="p3" class="mdl-progress mdl-js-progress" style="width: 100%;"></div>
+  <script>
+    document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
+      this.MaterialProgress.setProgress(1);
+      this.MaterialProgress.setBuffer(100);
+    });
+  </script>
+  <br>Publicado el 27/7/2017
   </div>
+  
   <!--
   <div class="mdl-card__supporting-text mdl-color-text--white" style="background-color: rgba(0, 0, 0, .2); text-align: left; margin: 5px;">
     You either die a hero, or live long enough to see yourself become the villain.<br><br>Publicado el 18/7/2008
