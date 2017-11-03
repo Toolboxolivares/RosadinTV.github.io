@@ -140,8 +140,8 @@
   <div class="mdl-card__supporting-text mdl-color-text--white" style="background-color: rgba(0, 0, 0, .2); text-align: left; margin: 5px;">
     Proximamente se renovara la aplicacion por completo, reprogramandola en WPF, lo cual brindara grandes mejoras en terminos de rendimiento y aspecto grafico.
   <br><br>
-  <div id="p3" class="mdl-progress mdl-js-progress" style="width: 100%; height: 10px;"></div>
-  <div class="mdl-tooltip" style="will-change: unset;" for="p3">Progreso: 5%</div>
+  <div id="p3" class="mdl-progress mdl-js-progress mdl-progress__indeterminate" style="width: 100%; height: 10px;"></div>
+  <div class="mdl-tooltip" style="will-change: unset;" for="p3">Progreso desconocido</div>
   <script>
     document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
       this.MaterialProgress.setProgress(5);
