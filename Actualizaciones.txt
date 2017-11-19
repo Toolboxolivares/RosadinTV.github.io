@@ -29,7 +29,7 @@ link=https://github.com/RosadinTV/RosadinTV_Release/releases/download/Dependenci
 destino=Archivos\RTMPDump
 
 [Plugins]
-version=5
+version=6
 link=https://github.com/RosadinTV/RosadinTV_Release/releases/download/Dependencias/Plugins.zip
 destino=Plugins
 
