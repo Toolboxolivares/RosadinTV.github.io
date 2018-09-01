@@ -1,4 +1,4 @@
 [RosadinTV]
-version=25/4/2017
+version=1/9/2018
 link=https://github.com/RosadinTV/RosadinTV_Release/releases/download/Principal/RosadinTV.zip
 destino=
